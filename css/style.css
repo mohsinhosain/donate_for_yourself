@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* color */
+.grey {
+    color: #707070;
+}
+
+/* width */
+.half-width {
+    width: 50%;
+}
+
+/* website slider */
+
+.hero-section {
+    background: rgba(0, 0, 0, .4) url("/images/donation13.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+}
+
+.jumbotron {
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+    width: 60%;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.jumbotron p {
+    margin-bottom: 40px;
+}
+
+
+.button-link {
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: #ffffff;
+    width: fit-content;
+}
+
+/* adding overlay to slider */
+
+.overlay {
+    width: 100%;
+    min-height: 600px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .7), transparent);
+    background-size: 100%;
+    position: relative;
+
+}
+
+.donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+
+}
+
+.donation-text h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.donation-amounts {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+
+.amount {
+    width: 20%;
+    margin: 0 2%;
+    padding: 30px 10px;
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+.amount:nth-child(2) {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+}
+
+.other-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#other-amount {
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: #B3B3B3;
+}
