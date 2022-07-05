@@ -20,7 +20,7 @@ body {
 /* website slider */
 
 .hero-section {
-    background: rgba(0, 0, 0, .4) url("images/donation13.jpg") no-repeat center;
+    background: rgba(0, 0, 0, .4) url("../images/donation13.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
