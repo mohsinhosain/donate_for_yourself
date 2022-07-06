@@ -76,6 +76,7 @@ body {
 
 }
 
+/* 2nd section as Donations */
 .donation,
 .donation-plan {
     display: flex;
@@ -89,7 +90,8 @@ body {
 
 }
 
-.donation-text h2 {
+.donation-text h2,
+.subscriber-text h2 {
     font-size: 45px;
     margin-bottom: 20px;
 }
@@ -132,6 +134,8 @@ body {
 ::placeholder {
     color: #B3B3B3;
 }
+
+/* donation plans css  */
 
 .donation-plans {
     width: 75%;
@@ -187,6 +191,45 @@ body {
     background-color: #fff4d6;
 }
 
+/* Subscriber section */
+
+.subscriber-area {
+    width: 100%;
+    display: flex;
+    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscriber-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    width: 56%;
+    text-align: center;
+    padding: 70px 0;
+    background: #FFF4D6;
+
+}
+
+.subscribe input {
+    padding: 15px 45px 15px 30px;
+    border: transparent;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #FF5959;
+    margin-left: -4px;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* footer section */
 footer {
     min-height: fit-content;
     text-align: center;
